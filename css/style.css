@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delicious+Handrawn&display=swap');
+@import "./reset.css";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Caveat', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/*Header */
+.header{
+    background-color: #f1f1f1;
+    padding-top: 46px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color:black;
+}
+
+/*Nav */
+.nav_list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav_link{
+    color:black;
+}
+
+/* Header content*/
+.header_row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header_content{
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header_heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header_content p{
+    line-height: 2;
+}
+
+/*Services*/
+.service{
+    padding: 90px 0;
+}
+
+.service_row{
+    display: flex;
+    column-gap: 30px;
+}
+
+.service_card__img{
+    margin-bottom: 30px;
+}
+
+.service_card__title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service_card p{
+    line-height: 2;
+}
+
+/* Portfolio */
+.portfolio{
+    background-color: #f1f1f1;
+    padding: 90px 0;
+}
+
+.portfolio_title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.title{
+    font-size: 34px;
+    font-weight: 600;
+}
+.project{
+    text-align: center;
+}
+.project_img{
+    margin-bottom:40px;
+    max-width: 500px;
+}
+.project_title{
+    font-size: 18px;
+}
+.project_title a {
+    color:black;
+    text-decoration: underline;
+}
+.project +.project{
+    margin-top: 90px;
+}
+
+/* Footer */
+.contacts{
+    padding: 40px;
+    text-align: center;
+}
+.contacts_title{
+    margin-bottom: 40px;
+}
+
+.social_icon{
+    width: 40px;
+    height: 40px;
+}
+.button{
+    background-color: #070707;
+    display: inline-block;
+    padding:7px 22px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 0.2 ease-in,top 0.2 ease-in;
+}
+.contacts_social{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contacts_footer{
+    color: #828282;
+}
+.button:hover, .button:focus{
+    background-color: #292929;
+}
+.button:active{
+    background-color: #000;
+    position: relative;
+    top: lpx;
+}
+
+.swipe_up{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgb(208, 179, 179);
+    width:50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
